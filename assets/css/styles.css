@@ -41,3 +41,51 @@
 .text-4-bold {
   font-weight: bold;
 }
+
+body {
+  margin: 0;
+  background-color: var(--stone-100);
+}
+
+.card {
+  background-color: var(--white);
+  box-sizing: border-box;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (min-width: 48em) {
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .card {
+    width: 38.5rem;
+    border-radius: 24px;
+    padding: 40px;
+  }
+
+  header {
+    height: 300px;
+  }
+
+  header img {
+    border-radius: 12px;
+  }
+}
+
+@media (min-width: 90em) {
+
+  .card {
+    width: 46rem;
+
+  }
+}

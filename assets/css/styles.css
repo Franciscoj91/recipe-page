@@ -1,0 +1,43 @@
+:root{
+  --rose-800: #7A284E;
+  --rose-50: #FFF7FB;
+  --stone-900: #312E2C;
+  --stone-600: #5F564D;
+  --stone-150: #E3DDD7;
+  --stone-100: #F3E5D7;
+  --brown-800: #854632;
+  --white: #FFFFFF;
+  --100: 0.5rem;
+  --150: 0.75rem;
+  --200: 1rem;
+  --250: 1.25rem;
+  --300: 1.5rem;
+  --350: 1.75rem;
+  --400: 2rem;
+  --500: 2.5rem;
+  --600: 3rem;
+  --1600: 8rem;
+
+}
+
+.text-1 {
+  font-size: var(--500);
+  letter-spacing: 0;
+  
+}
+
+.text-2 {
+  font-size: var(--350);
+}
+
+.text-3 {
+  font-size: var(--250);
+}
+
+.text-4 {
+  font-size: var(--200);
+}
+
+.text-4-bold {
+  font-weight: bold;
+}

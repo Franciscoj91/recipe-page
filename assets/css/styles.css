@@ -42,7 +42,11 @@
 }
 
 .text-2 {
+  font-family: 'Young Serif', sans-serif;
   font-size: var(--350);
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--brown-800);
 }
 
 .text-3 {
@@ -63,7 +67,7 @@
   font-weight: bold;
 }
 
-body, h1, h3, p, ul {
+body, h1, h2, h3, p, ul {
   margin: 0;
   
 }
@@ -114,9 +118,16 @@ li:not(li:last-child) {
 }
 
 .preparation-time li::marker {
-  transform: translate(-16px);
   color: var(--rose-800);
   font-size: var(--200);
+}
+
+.ingredients h2{
+  margin-bottom: 24px;
+}
+
+.ingredients li::marker {
+  color: var(--brown-800);
 }
 
 

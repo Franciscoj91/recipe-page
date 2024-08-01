@@ -82,6 +82,7 @@ body {
 .card {
   background-color: var(--white);
   box-sizing: border-box;
+  padding-bottom: var(--500);
 }
 
 header {
@@ -94,27 +95,27 @@ header img {
 }
 
 .card-body {
-  padding: 40px 32px 0;
+  padding: var(--500) var(--400) 0;
 }
 
 
 .recipe h1{
-  margin-bottom: 24px;
+  margin-bottom: var(--300);
 }
 
 .preparation-time {
-  margin: 32px 0;
-  padding: 24px;
+  margin: var(--400) 0;
+  padding: var(--300);
   background-color: var(--rose-50);
-  border-radius: 12px;
+  border-radius: var(--150);
 }
 
 .preparation-time h3{
-  margin-bottom: 16px;
+  margin-bottom: var(--200);
 }
 
 li:not(li:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: var(--100);
 }
 
 .preparation-time li::marker {
@@ -123,7 +124,11 @@ li:not(li:last-child) {
 }
 
 .article h2{
-  margin-bottom: 24px;
+  margin-bottom: var(--300);
+}
+
+.article p {
+  margin-bottom: var(--300);
 }
 
 .article li::marker {
@@ -134,8 +139,37 @@ li:not(li:last-child) {
 .division {
   width: 100%;
   height: 1px;
-  margin: 32px 0;
+  margin: var(--400) 0;
   background-color: var(--stone-150);
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+td:first-child {
+  padding: var(--150) var(--100) var(--150) var(--400);
+}
+
+td:last-child {
+  padding: var(--150) var(--400) var(--150) var(--100);
+}
+
+tr:first-child td {
+  padding-top: 0;
+}
+
+tr:last-child td{
+  padding-bottom: 0;
+}
+
+
+
+
+tr:not(tr:last-child) {
+  border-bottom: 1px solid var(--stone-150);
 }
 
 
@@ -155,8 +189,8 @@ li:not(li:last-child) {
 
   .card {
     width: 38.5rem;
-    border-radius: 24px;
-    padding: 40px;
+    border-radius: var(--300);
+    padding: var(--500);
   }
 
   header {
@@ -164,11 +198,11 @@ li:not(li:last-child) {
   }
 
   header img {
-    border-radius: 12px;
+    border-radius: var(--150);
   }
 
   .card-body {
-    padding: 40px 0 0;
+    padding: var(--500) 0 0;
   }
 }
 

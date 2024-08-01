@@ -113,6 +113,15 @@ header img {
   margin-bottom: var(--200);
 }
 
+ul, ol {
+  margin-left: var(--100);
+  padding-left: var(--200);
+}
+
+li{
+  padding-left: var(--200);
+}
+
 li:not(li:last-child) {
   margin-bottom: var(--100);
 }
